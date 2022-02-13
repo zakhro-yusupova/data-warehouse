@@ -468,12 +468,9 @@ img {
   line-height: 160%;
   color: #4B5D68;
   text-decoration: none;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
 }
 
 .site-header__link:hover {
-  font-weight: 900;
   color: #9C69E2;
 }
 
@@ -533,7 +530,6 @@ img {
 }
 
 .save__inner {
-  margin-top: 80px;
   position: relative;
 }
 
@@ -981,12 +977,21 @@ img {
   margin-bottom: 10px;
 }
 
+.footer__left-address:hover {
+  color: #9C69E2;
+}
+
 .footer__left-link {
   display: block;
   line-height: 180%;
   letter-spacing: 0.01em;
   text-decoration: none;
   color: #212353;
+}
+
+.footer__left-link:hover {
+  color: #9C69E2;
+  text-decoration: underline;
 }
 
 .footer__rights-link {
@@ -998,6 +1003,11 @@ img {
   margin-top: 118px;
   text-decoration: none;
   color: #212353;
+}
+
+.footer__rights-link:hover {
+  color: #9C69E2;
+  text-decoration: underline;
 }
 
 .footer__link-list {

@@ -41,6 +41,10 @@
   color: $title-color;
   text-decoration: none;
   margin-bottom: 10px;
+
+  &:hover{
+    color: $purple-color;
+  }
 }
 
 .footer__left-link{
@@ -49,6 +53,11 @@
   letter-spacing: 0.01em;
   text-decoration: none;
   color: $title-color;
+
+  &:hover{
+    color: $purple-color;
+    text-decoration: underline;
+  }
 }
 
 .footer__rights-link{
@@ -60,6 +69,11 @@
   margin-top: 118px;
   text-decoration: none;
   color: $title-color;
+
+  &:hover{
+    color: $purple-color;
+    text-decoration: underline;
+  }
 }
 
 .footer__link-list{
