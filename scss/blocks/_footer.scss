@@ -1,0 +1,136 @@
+.footer{
+  padding: 75px 0 100px;
+}
+
+.footer__inner{
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__left{
+  width: 335px;
+  color: $title-color;
+  margin-right: 140px;
+}
+
+
+.footer__left-logo{
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  text-decoration: none;
+  color: $title-color;
+  margin-bottom: 67px;
+}
+
+.footer__left-img{
+  margin-right: 20px;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+
+.footer__left-address{
+  font-style: normal;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: $title-color;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer__left-link{
+  display: block;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: $title-color;
+}
+
+.footer__rights-link{
+  width: 370px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 180%;
+  color: $title-color;
+  margin-top: 118px;
+  text-decoration: none;
+  color: $title-color;
+}
+
+.footer__link-list{
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__link-item{
+  font-weight: 900;
+  line-height: 160%;
+  color: $title-color;
+  margin-right: 165px;
+
+  &:hover{
+    color: #F063B8;
+  }
+
+
+}
+
+
+.footer__link-sublist{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.footer__link-subitem{
+  margin-bottom: 10px;
+}
+
+.footer__item-link{
+  font-weight: normal;
+  line-height: 160%;
+  color: $title-color;
+  text-decoration: none;
+
+
+  &:hover{
+    color: $purple-color;
+    text-decoration: underline;
+  }
+}
+
+.social-m{
+  display: flex;
+  align-items: center;
+}
+
+.footer__link-subitem{
+  margin-right: 14px;
+}
+
+.footer__social-link{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background: $title-color;
+  opacity: 0.1;
+  padding: 20px 22px;
+  transition: 1s ease;
+
+  &:hover{
+    background-color: $purple-color;
+    opacity: 1;
+  }
+}
+
+.footer__social-img{
+  fill: #FFFFFF;
+}

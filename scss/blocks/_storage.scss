@@ -1,0 +1,47 @@
+.storage{
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.storage__inner{
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 125px 93px;
+  position: relative;
+
+  &::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../images/data-storage.png");
+    background-repeat: no-repeat;
+    width: 477px;
+    height: 504px;
+    top: 30px;
+    left: 0;
+
+  }
+}
+
+.storage__info{
+  width: 475px;
+}
+
+.storage__title{
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: $title-color;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.storage__text{
+  font-size: 18px;
+  line-height: 160%;
+  color: $text-color;
+}

@@ -1,0 +1,68 @@
+.join{
+  padding: 75px 0;
+}
+
+.join__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join__title{
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: $title-color;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.join__text{
+  font-size: 18px;
+  line-height: 160%;
+  color: $text-color;
+  margin: 0;
+}
+
+.join__link{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+  margin-left: 30px;
+  background: #F063B8;
+  border-radius: 50px;
+  padding: 16px 37px;
+  text-decoration: none;
+  transition: 1s ease;
+
+  &:hover{
+    background-color: $purple-color;
+  }
+
+  &:nth-child(2){
+    background-color: #fff;
+    color: $title-color;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    padding: 16px 60px 16px 30px;
+    position: relative;
+
+    &::after{
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url("../images/arrow.png");
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 14px;
+      top: 20px;
+      right: 10px;
+    }
+
+    &:hover{
+      color: #fff;
+      background: #68C9BA;
+    }
+  }
+}

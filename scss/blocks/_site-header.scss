@@ -1,0 +1,96 @@
+.site-header{
+  width: 100%;
+  padding: 25px 0 ;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.site-header__inner{
+  display: flex;
+  align-items: center;
+}
+
+.site-header__menu{
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo-img:hover{
+  opacity: 0.7;
+}
+
+.site-header__list{
+  display: flex;
+  align-items: center;
+  margin-right: 390px;
+  list-style-type: none;
+
+}
+
+.site-header__item{
+  margin-left: 40px;
+}
+
+.site-header__link{
+  font-size: 16px;
+  line-height: 160%;
+  color: $text-color;
+  text-decoration: none;
+  transition: 1s ease;
+
+  &:hover{
+    font-weight: 900;
+    color: $purple-color;
+  }
+
+  &:active{
+    color: $title-color;
+  }
+}
+
+.site-header__contact-link{
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  background-color: #fff;
+  color: $title-color;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  padding: 16px 60px 16px 30px ;
+  transition: 1s ease;
+  position: relative;
+
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 14px;
+    top: 20px;
+    right: 18px;
+  }
+
+  &:hover{
+    color: #fff;
+    background: #68C9BA;
+  }
+}
+
+.message{
+  position: fixed;
+  z-index: 3;
+  right: calc(50% - 600px);
+  bottom: calc(50% - 400px);
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
