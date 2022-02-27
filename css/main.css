@@ -1115,7 +1115,7 @@ img {
   text-decoration: underline;
 }
 
-.footer__rights-link {
+.footer__rights {
   width: 370px;
   display: inline-block;
   font-size: 12px;
@@ -1126,7 +1126,7 @@ img {
   color: #212353;
 }
 
-.footer__rights-link:hover {
+.footer__rights:hover {
   color: #9C69E2;
   text-decoration: underline;
 }
