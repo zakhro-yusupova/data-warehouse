@@ -9,6 +9,7 @@
 }
 
 .site-header__menu{
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -20,7 +21,7 @@
 .site-header__list{
   display: flex;
   align-items: center;
-  margin-right: 370px;
+  margin-right:auto;
   list-style-type: none;
 
 }

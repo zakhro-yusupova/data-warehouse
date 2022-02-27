@@ -10,20 +10,9 @@
   align-items: center;
   justify-content: flex-end;
   padding: 125px 93px;
-  position: relative;
-
-  &::before{
-    content: "";
-    display: block;
-    position: absolute;
-    background-image: url("../images/data-storage.png");
-    background-repeat: no-repeat;
-    width: 477px;
-    height: 504px;
-    top: 30px;
-    left: 0;
-
-  }
+  background-image: url("../images/data-storage.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 310px) calc(50%);
 }
 
 .storage__info{

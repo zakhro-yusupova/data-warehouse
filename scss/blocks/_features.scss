@@ -158,16 +158,6 @@
 margin-top: 49px;
 }
 
-.features__item-link{
-  text-decoration: none;
-  color: $title-color;
-  line-height: 160%;
-
-  :nth-child(3){
-    margin-top: 60px;
-  }
-}
-
 .features__item-title{
   font-family:" Helvetica";
   font-size: 24px;
@@ -181,24 +171,16 @@ margin-top: 49px;
   color: $text-color;
   margin: 0;
   margin: 20px 0 30px;
-
 }
-
 
 .features__item-link{
+  display: flex;
+  align-items: center;
   color: $title-color;
   line-height: 160%;
+  text-decoration: none;
   position: relative;
-
-  &::after{
-    content: "";
-    display: block;
-    position: absolute;
     background-image: url("../images/arrow.png");
     background-repeat: no-repeat;
-    width: 28px;
-    height: 14px;
-    top: 10px;
-    right: 100px;
+    background-position: calc(50%);
   }
-}
