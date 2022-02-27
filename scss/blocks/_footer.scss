@@ -84,10 +84,11 @@
 }
 
 .footer__link-item{
+  width: 166px;
   font-weight: 900;
   line-height: 160%;
   color: $title-color;
-  margin-right: 165px;
+  margin-right: 65px;
 
   &:hover{
     color: #F063B8;
