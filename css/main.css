@@ -418,13 +418,8 @@ img {
 }
 
 .site-header {
-  width: 100%;
   padding: 25px 0;
-  position: fixed;
   background-color: #fff;
-  top: 0;
-  right: 0;
-  z-index: 2;
 }
 
 .site-header__inner {
@@ -526,7 +521,7 @@ img {
 }
 
 .save {
-  padding-top: 105px;
+  padding-top: 85px;
   padding-bottom: 200px;
 }
 
